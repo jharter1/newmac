@@ -1,0 +1,1 @@
+curl -s 'https://api.macapps.link/en/firefox-alfred-fantastical-github-sublime-vscode-iterm-1password-daisydisk-vlc-telegram-whatsapp-discord' | sh
