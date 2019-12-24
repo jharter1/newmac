@@ -1,1 +1,16 @@
+# Setting PATH for Python 3.7
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
+export PATH
+
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
+fi
+
+alias python=python3
+
+alias cat=ccat
+
+
+
 export PS1="\[$(tput setaf 2)\]\u@\h:\w $ \[$(tput sgr0)\]"
